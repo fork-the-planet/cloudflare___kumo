@@ -640,4 +640,7 @@ export const Combobox = Object.assign(Root, {
   Trigger: ComboboxBase.Trigger,
   Value: ComboboxBase.Value,
   Icon: ComboboxBase.Icon,
+
+  // Filtering
+  useFilter: ComboboxBase.useFilter,
 });

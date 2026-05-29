@@ -321,4 +321,7 @@ export const Autocomplete = Object.assign(Root, {
   // Pass-through Base UI sub-components
   Empty: AutocompleteBase.Empty,
   Collection: AutocompleteBase.Collection,
+
+  // Filtering
+  useFilter: AutocompleteBase.useFilter,
 });
